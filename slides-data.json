@@ -1,0 +1,106 @@
+{
+	"slide_info" : {
+		"course_id"		: "1",
+		"Slide_title"	: "Mobile Presentation",
+		"audio_name"	: "mobile.mp3",
+		"cover_letter"  : "img/dummy/cover_letter.jpg"
+	},
+	"slide_items" : [
+		{
+			"slide_id" : "1",
+			"slide_name" : "slide1",
+			"slide_order" : "1",
+			"slide_title" : "",
+			"slider_html" :  "<div class='text-center'><img src='img/dummy/mobile.png' alt='mobile' /></div>",
+			"effect_type" : "show",
+			"voice_name" : "",
+			"duration_s" : 5000,
+			"slide_sub_items" : []
+		},
+		{
+			"slide_id" : "2",
+			"slide_name" : "slide2",
+			"slide_order" : "2",
+			"slide_title" : "Google Report in 2011",
+			"slider_html" :  "<div><img src='img/dummy/slide2.png' alt='slide2' /></div>",
+			"effect_type" :  "show",
+			"voice_name" : "",
+			"duration_s" : 12000,
+			"slide_sub_items" : [
+				{
+					"item_id" : "1",
+					"item_html" :  "",
+					"duration_s" : 3000
+				},
+				{
+					"item_id" : "2",
+					"item_html" :  "<div class='slide_sub_item hide_o' style='height:50px;position:absolute;top:20%;left:0;'><h3><span class='label label-danger'>Google Reported a 400%</span></h3></div>",
+					"duration_s" : 3000
+				},
+				{
+					"item_id" : "3",
+					"item_html" :  "<div class='slide_sub_item hide_o' style='height:50px;position:absolute;top:35%;left:8%;'><h3><span class='label label-success'>Increase in the Number of Searches Being Carried Out.</span></h3></div>",
+					"duration_s" : 2000
+				},
+				{
+					"item_id" : "4",
+					"item_html" :  "<div class='slide_sub_item hide_o' style='height:50px;position:absolute;top:48%;left:16%;'><h3><span class='label label-info'>On Mobile Devices Compared to last Year</span></h3></div>",
+					"duration_s" : 4000
+				}
+			]
+		},
+		{
+			"slide_id" : "3",
+			"slide_name" : "slide3",
+			"slide_order" : "3",
+			"slide_title" : "GOOGLE SEARCHES",
+			"slider_html" :  "<div><img src='img/dummy/mobile2.png' alt='mobile2' /></div>",
+			"effect_type" :  "show",
+			"voice_name" : "",
+			"duration_s" : 8000,
+			"slide_sub_items" : [
+				{
+					"item_id" : "1",
+					"item_html" :  "",
+					"duration_s" : 1000
+				},
+				{
+					"item_id" : "2",
+					"item_html" :  "<div class='slide_sub_item hide_o' style='height:24%;position:absolute;top:20%;left:0;width:48%;'><img src='img/dummy/pcs.png' alt='Pcs' /></div>",
+					"duration_s" : 2000
+				},
+				{
+					"item_id" : "3",
+					"item_html" :  "<div class='slide_sub_item hide_o' style='height:24%;position:absolute;top:20%;left:46%;width:10%;'><img src='img/dummy/mobile2.png' alt='mobile2' /></div>",
+					"duration_s" : 1500
+				},
+				{
+					"item_id" : "4",
+					"item_html" :  "<div class='slide_sub_item hide_o' style='height:40%;position:absolute;top:50%;left:80px;width:48%;'><img src='img/dummy/google.png' alt='Google' /></div>",
+					"duration_s" : 3500
+				}
+			]
+		},
+		{
+			"slide_id" : "4",
+			"slide_name" : "slide4",
+			"slide_order" : "4",
+			"slide_title" : "Fourth Slide",
+			"slider_html" :  "<div><img src='img/dummy/slide2.png' alt='slide2' /></div>",
+			"effect_type" :  "show",
+			"voice_name" : "",
+			"duration_s" : 25000,
+			"slide_sub_items" : []
+		},
+		{
+			"slide_id" : "5",
+			"slide_name" : "slide5",
+			"slide_order" : "5",
+			"slide_title" : "Fifth Slide",
+			"slider_html" :  "<div><img src='img/dummy/slide3.jpg' alt='slide3' /></div>",
+			"effect_type" :  "show",
+			"voice_name" : "",
+			"duration_s" : 70000,
+			"slide_sub_items" : []
+		}]
+}

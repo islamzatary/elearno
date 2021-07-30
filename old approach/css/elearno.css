@@ -1,0 +1,155 @@
+/*!
+ * eLearno Styles
+ *
+ *
+ * built by Islam AlZatary @izatary, http://www.islamzatary.com.
+ * Created - Oct 2013 
+ *
+ */
+ 
+ body {
+    background-color: #2E2C30;
+}
+.slides-container {
+	width:900px;
+}
+.slides-container img {
+	max-width:100%;
+}
+.main-wrapper {
+	padding:55px 0 0 0;
+}
+.main-sidebar {
+    position: relative;
+    width: 220px;
+    z-index: 16;
+}
+.main-content {
+	background: none repeat scroll 0 0 #ECEAF3;
+    min-height: 500px;
+    position: relative;
+    width: auto;
+	margin:0 20px;
+	border-radius:10px;
+	padding:10px;
+}
+#content-header h1 {
+	margin:0;
+}
+.progress-bar-sep {
+	border-right:1px dotted #FFF;
+}
+.overflow-h {
+	overflow:hidden;
+}
+.progress {
+	margin:0 20px;
+}
+.slide_items {
+	position: relative;
+    width: auto;
+	min-height:350px;
+}
+.slide_item {
+	/*border: 1px dotted #CCCCCC;*/
+	min-height: 350px;
+	margin: 5px;
+	padding: 5px;
+	width: auto;
+	position:relative;
+	border-radius:3px;
+	/*cursor: move;*/
+	/*float:left;*/
+	box-shadow:1px 2px 2px 1px #DDDDDD;
+}
+.slide_sub_item {
+	position:relative;
+}
+.cover_letter {
+}
+.play_slideshow {
+	background:transparent url(../img/video-mod-play-control.png) 50% 50% no-repeat;
+	cursor: pointer;
+    display: block;
+    height: 75px;
+    left: 47.5%;
+    position: absolute;
+    top: 35%;
+    width: 75px;
+}
+.slide_order {
+	width:20px;
+	height:20px;
+	padding:2px;
+	text-align:center;
+	background-color:#CCC;
+	color:#F1F1F1;
+	position:absolute;
+	top:0;
+	right:0;
+}
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+.slides-container audio {
+	width:100%;
+}
+.center-block {
+	margin:0 auto;
+	display:block;
+}
+.hide_o {
+	display:none;
+}
+.label {
+	white-space:normal;
+	display:inline-block;
+}
+
+/*******************  Bootsrap override  ****************/
+.progress {
+	margin:0;
+}
+
+
+
+/************************ Responsive Specific ****************************/
+
+/************** All screen more than 1024 + Tablet Landscape *************/
+@media only screen and (min-width: 1024px) {
+		.slides-container {
+			width:800px;
+		}
+}
+/************** Tablet - Portrait *************/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.slides-container {
+		width:95%;
+	}
+	.play_slideshow {
+		left:43%;
+		top:40%;
+	}
+	.slide_items, .slide_item {
+		min-height:250px;
+	}
+}
+/************** SmartPhone - Landscape || Portrait *************/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.slides-container {
+		width:95%;
+	}
+	.play_slideshow {
+		left:32%;
+		top:22%;
+	}
+	.slide_items {
+		min-height:150px;
+	}
+}

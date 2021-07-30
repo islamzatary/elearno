@@ -1,0 +1,69 @@
+{
+	"slide_info" : {
+		"course_id"		: "",
+		"Slide_title"	: "",
+		"audio_name"	: "",
+		"cover_letter"  : ""
+	},
+	"slide_items" : [
+		{
+			"slide_id" : "",
+			"slide_name" : "",
+			"slide_order" : "",
+			"slide_title" : "",
+			"slider_html" :  "",
+			"effect_type" : "",
+			"voice_name" : "",
+			"duration_s" : 20000,
+			"slide_sub_items" : [
+				{
+					"item_id" : "",
+					"item_html" :  "",
+					"duration_s" : 10000
+				},
+				{
+					"item_id" : "",
+					"item_html" :  "",
+					"duration_s" : 10000
+				}
+			]
+		},
+		{
+			"slide_id" : "",
+			"slide_name" : "",
+			"slide_order" : "",
+			"slide_title" : "",
+			"slider_html" :  "",
+			"effect_type" :  "",
+			"voice_name" : "",
+			"duration_s" : 30000,
+			"slide_sub_items" : [
+				{
+					"item_id" : "",
+					"item_html" :  "",
+					"duration_s" : 15000
+				},
+				{
+					"item_id" : "",
+					"item_html" :  "",
+					"duration_s" : 15000
+				},
+				{
+					"item_id" : "",
+					"item_html" :  "",
+					"duration_s" : 15000
+				}
+			]
+		},
+		{
+			"slide_id" : "",
+			"slide_name" : "",
+			"slide_order" : "",
+			"slide_title" : "",
+			"slider_html" :  "",
+			"effect_type" :  "",
+			"voice_name" : "",
+			"duration_s" : 25000,
+			"slide_sub_items" : []
+		}]
+}
